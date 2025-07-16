@@ -1,0 +1,23 @@
+li{
+  color: blue;  
+  margin: 5px;
+}
+
+li:first-child{
+    font-weight: bold;
+    color: red;
+}
+
+li:last-child{
+    font-style: italic;
+}
+
+li:nth-child(odd){
+    background-color: aqua;
+    
+}
+
+li:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
