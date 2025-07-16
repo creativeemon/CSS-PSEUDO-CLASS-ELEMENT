@@ -21,3 +21,16 @@ li:hover{
     background-color: yellow;
     cursor: pointer;
 }
+
+p{font-size: 20px;}
+
+p.highlight::before{
+    content: "🔥 ";
+   color: orange;
+   font-size: 12px;
+}
+
+p.highlight::after{
+    content: "! 🌋";
+    font-size: 12px;
+}
